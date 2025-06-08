@@ -22,6 +22,31 @@
 ### Used by [Amazon](https://aws.amazon.com/cn/blogs/machine-learning/how-apoidea-group-enhances-visual-information-extraction-from-banking-documents-with-multimodal-models-using-llama-factory-on-amazon-sagemaker-hyperpod/), [NVIDIA](https://developer.nvidia.com/rtx/ai-toolkit), [Aliyun](https://help.aliyun.com/zh/pai/use-cases/fine-tune-a-llama-3-model-with-llama-factory), etc.
 
 <div align="center" markdown="1">
+## Setup Instructions
+
+```bash
+# Clone the repository
+git clone <repository-url>
+cd LLaMA-Factory/
+
+# Create and activate a virtual environment
+
+# For macOS / Linux
+python3 -m venv venv
+source venv/bin/activate
+
+# For Windows
+python -m venv venv
+venv\Scripts\activate
+
+# Install requirements
+pip install -r requirements.txt
+
+# Install the project
+pip install -e ".[torch,bitsandbytes]"
+
+# Launch the web interface
+llamafactory-cli webui
 
 ### Supporters ❤️
 

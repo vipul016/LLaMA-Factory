@@ -47,6 +47,7 @@ pip install -e ".[torch,bitsandbytes]"
 
 # Launch the web interface
 llamafactory-cli webui
+```
 
 ### Supporters ❤️
 
